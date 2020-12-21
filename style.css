@@ -10,20 +10,21 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-header ul {
+nav ul {
   list-style-type: none;
   display: flex;
 }
 
-header li {
+nav li {
   display: flex;
   padding-left: 30px;
   align-items: center;
 }
 
-header li a {
+nav li a {
   text-decoration: none;
   color: black;
 }
