@@ -1,0 +1,29 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#bloc_page {
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
