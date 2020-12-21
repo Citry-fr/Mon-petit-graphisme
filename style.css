@@ -12,18 +12,18 @@ header {
   justify-content: space-between;
 }
 
-ul {
+header ul {
   list-style-type: none;
   display: flex;
 }
 
-li {
+header li {
   display: flex;
   padding-left: 30px;
   align-items: center;
 }
 
-li a {
+header li a {
   text-decoration: none;
   color: black;
 }
@@ -44,6 +44,7 @@ li a {
 
 #contenu_banniere h1 {
   color: white;
+  font-weight: normal;
 }
 
 #contenu_banniere {
@@ -106,4 +107,53 @@ article {
 
 .auteur {
   margin-top: 3px;
+}
+
+footer {
+  background-color: #5b359d;
+}
+
+#copy {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 0.8em;
+  padding-top: 30px;
+}
+
+#icone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2em;
+  width: 300px;
+  margin: auto;
+}
+
+#icone a {
+  text-decoration: none;
+  color: #bdaed8;
+}
+
+#apc {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#apc p {
+  text-align: left;
+  color: #bdaed8;
+}
+
+#coord ul {
+  list-style-type: none;
+}
+
+#apc ul {
+  color: white;
 }
