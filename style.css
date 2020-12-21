@@ -27,3 +27,83 @@ li a {
   text-decoration: none;
   color: black;
 }
+
+#banniere {
+  background: url("images/backgroung_image.jpg");
+  background-size: contain;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenu_banniere img {
+  width: 55%;
+}
+
+#contenu_banniere h1 {
+  color: white;
+}
+
+#contenu_banniere {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#presentation {
+  font-size: 1.3em;
+  color: #575757;
+  width: 65%;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+#activity {
+  width: 65%;
+  display: flex;
+}
+
+#activity div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+}
+
+#activity div p {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 0px;
+}
+
+#activity div h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+article {
+  text-align: center;
+  width: 600px;
+  color: #575757;
+}
+
+.phrase {
+  font-size: 1.3em;
+  margin-bottom: 0px;
+}
+
+.auteur {
+  margin-top: 3px;
+}
